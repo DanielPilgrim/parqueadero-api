@@ -1,0 +1,28 @@
+{
+  "name": "taller_mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPilgrim/taller-mongo.git"
+  },
+  "author": "Daniel Trujillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielPilgrim/taller-mongo/issues"
+  },
+  "homepage": "https://github.com/DanielPilgrim/taller-mongo#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "mongoose-sequence": "^6.0.1",
+    "taller_mongo": "file:"
+  },
+  "type": "module"
+}
