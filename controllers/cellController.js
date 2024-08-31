@@ -89,7 +89,6 @@ export const calculatePayment = async (req, res) => {
             return res.status(400).send('Cell not valid for payment calculation');
         }
 
-        // Registra la fecha de salida si no está registrada
         if (!cell.dateOut) {
             cell.dateOut = new Date();
             await cell.save();
